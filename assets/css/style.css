@@ -128,6 +128,7 @@ blockquote {
   }
 
 .box {width: 40%; height: auto;}
+.box_10 {width: 10%; height: auto;}
 .box_50 {width: 50%; height: auto;}
 .box_70 {width: 70%; height: auto;}
 .box_80 {width: 80%; height: auto;}
