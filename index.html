@@ -73,36 +73,41 @@
 
 	  <td width=600 align=center valign=top bgcolor= white>
 		
-		<h3>Introduction:</h3>
-      <blockquote>
-		  <p>
+	<h3>Introduction:</h3>
+		  
+      	<blockquote>
+	<p>
         The goal of an Embedded System Development Environment is to enable a developer 
         to create the application firmware for a Microcontroller Control Unit (MCU) 
         based hardware design. Application development consists of five steps:
-	    </p>
-      </blockquote>
+	</p>
+      	</blockquote>
 
-      <ul class="ul_gen">
-        <li><strong>Coding - </strong>writing the application in a humanly readable form</li>
-        <li><strong>Building - </strong>converting the humanly readable code to a machine-readable code</li>
-        <li><strong>Simulation - </strong>verifying the application will work before it is programmed into an MCU</li>
-        <li><strong>Programming - </strong>placing the machine-readable code into the MCU's non-volatile program memory</li>
-        <li><strong>Debugging - </strong>identifying and removing any unforeseen anomalies in operation after the application has been programmed into the MCU</li>
-      </ul>
+      	<ul class="ul_gen">
+            	<li><strong>Coding - </strong>writing the application in a humanly readable form</li>
+        	<li><strong>Building - </strong>converting the humanly readable code to a machine-readable code</li>
+        	<li><strong>Simulation - </strong>verifying the application will work before it is programmed into an MCU</li>
+        	<li><strong>Programming - </strong>placing the machine-readable code into the MCU's non-volatile program memory</li>
+        	<li><strong>Debugging - </strong>identifying and removing any unforeseen anomalies in operation after the application has been programmed into the MCU</li>
+      	</ul>
 
-      <div class="box_70"><img src="assets/images/dev-system.png"/><span class="capt_cont">Fig: Embedded Development Environment</span></div>
-
-      <p>
+      	<div class="box_70"><img src="assets/images/dev-system.png"/><span class="capt_cont">Fig: Embedded Development Environment</span></div>
+	
+		  
+	<blockquote>	  
+      	<p>
         The primary component of a contemporary development system is a software package 
         called an Integrated Development Environment (IDE). IDEs provide a user interface 
         for the application developer to coordinate the development activities. Depending 
         on the developer's needs, the IDE may communicate with other software packages 
         called compilers and hardware devices called programmer/debuggers.
-      </p>
+      	</p>
+	</blockquote>
 
 
       <h3>Coding :</h3>
-      <p>
+	<blockquote>
+      	<p>
         Applications are developed by writing code using languages such as C or assembly. 
         The code is placed in text files, called source files, on the developer's computer. 
         An embedded application typically consists of multiple source files. The content 
@@ -110,28 +115,35 @@
 
         <br><br>In order to enable efficient development, IDEs include a text editor and 
         the ability to create and manage multiple source files.
-      </p>
+      	</p>
+	</blockquote>
 
-      <h3>Building :</h3>
-      <p>
+      	<h3>Building :</h3>
+		  
+	<blockquote>
+      	<p>
         Once the source files have been written, they need to be converted to a form 
         which is readable by the MCU. The process of converting source files to a format 
         which can be read by an MCU is called building. A build is a two-step process:
-      </p>
+      	</p>
+	</blockquote>
 
       <ul class="ul_gen">
         <li>Each application source file is converted to a machine-readable file called an object file.</li>
         <li>The object files are then linked together, forming a single application file which can be programmed into the MCU.</li>
       </ul>
-
-      <p>
+	
+	<blockquote>
+      	<p>
         Building is performed by a software tool called a compiler. IDEs offer a user interface, 
         allowing the developer to start the build process by invoking the compiler.
-      </p>
+      	</p>
+	</blockquote>
 
       <h3>Simulation :</h3>
-
-      <p>
+		  
+	<blockquote>
+      	<p>
         Improperly written applications can cause damage to the external hardware or the 
         circuity of a development board. Many developers wish to determine if their 
         application is functioning properly before they program it into an MCU. The 
@@ -141,20 +153,25 @@
         <br><br>Software simulation is a feature offered by the IDE. After a project is 
         built, and before it is programmed into the MCU, the developer can run an interactive 
         software simulation of the code.
-      </p>
+      	</p>
+	</blockquote>
 
-      <h3>Programming :</h3>
-
-      <p>
+      	<h3>Programming :</h3>
+		  
+	<blockquote>
+      	<p>
         Placing a built application file into an MCU's program memory requires the use of 
         a hardware device called a programmer ( or programmer/debugger). A programmer typically 
         connects to the developer's computer through USB and to the MCU through the MCU's 
         specified I/O pins. After a build has been completed, using the IDE, the developer 
         initiates the programming of the built application file into the MCU.
-      </p>
+      	</p>
+	</blockquote>
 
-      <h3>Debugging :</h3>
-      <p>
+      	<h3>Debugging :</h3>
+		  
+	<blockquote>
+      	<p>
         Sometimes, after an application has been coded, built, and programmed into an MCU, 
         it performs differently than the developer expects. To identify and correct the causes 
         of these anomalies, the developer will need to "see" what the MCU sees as it executes 
@@ -165,7 +182,8 @@
         have a set of enhanced capabilities. The programmer must have the ability to pass 
         control signals from the IDE to the MCU and return data from the MCU to the IDE. 
         Enhanced programmers are referred to as programmer/debuggers.
-      </p>
+      	</p>
+	</blockquote>
 
 
 
